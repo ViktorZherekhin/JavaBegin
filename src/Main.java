@@ -39,6 +39,11 @@ public class Main {
         Car car1 = new Car();
         car1.color = "blue";
         System.out.println("ЦВет автомобиля Car1: " + car1.color);
+
+        Nalog nalog1 = new Nalog();  // слева от "nalog1" указан тип переменной (т.е. "Nalog")
+        double vashNalog = nalog1.calcNalog(30000,"USN");
+        System.out.println("Ваш налог составляет " + vashNalog + " руб.");
+
     }
 }
 

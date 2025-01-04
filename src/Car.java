@@ -6,7 +6,7 @@ public class Car {
         // some code goes here
     }
 
-    void stopEngine() {
+    public void stopEngine() {     // "public" разрешает вызвать этот метод другим класам ("снаружи")
         int tempCouner = 0;   // это локальная переменная (объявляется в нутри метода)
         /* some code
          goes here */
